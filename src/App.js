@@ -9,6 +9,7 @@ export default function App() {
     <div className="app__wrapper">
       <Contacts />
       <Intro />
+      <Footer />
     </div>
   );
 }
