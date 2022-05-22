@@ -16,11 +16,27 @@ h1 {
   color: #ffffff;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+
 h4 {
   font-weight: 400;
   font-size: 0.8rem;
   line-height: 1.475rem;
   color: #f3bf99;
+}
+
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #dcdcdc;
 }
 
 span {
@@ -38,7 +54,7 @@ span {
 #app {
   width: min-content;
   min-width: 19.8125rem;
-  margin: 0 auto;
+  margin: 20px auto;
   border-radius: 0.6875rem;
   overflow: hidden;
   background-color: #1a1b21;
@@ -98,4 +114,14 @@ span {
   background: #5093e2;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
+}
+
+/* Intro */
+
+.intro {
+  padding: 1.875rem 2.1875rem;
+}
+
+.intro .intro__interests {
+  margin-top: 0.625rem;
 }
